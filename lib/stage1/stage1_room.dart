@@ -1383,7 +1383,7 @@ class _Stage1RoomScreenState extends State<Stage1RoomScreen>
     _addInventoryItem(_InventoryItem(id, asset));
   }
 
-  void _mergeCluesFromInventory(String pressedId) {
+ /* void _mergeCluesFromInventory(String pressedId) {
     if (pressedId != 'clue1' && pressedId != 'clue2') return;
 
     final otherId = pressedId == 'clue1' ? 'clue2' : 'clue1';
@@ -1398,7 +1398,7 @@ class _Stage1RoomScreenState extends State<Stage1RoomScreen>
       const _InventoryItem('fullclue', PuzzleAssets.fullClue),
     );
   }
-
+*/
   void _addInventoryItem(_InventoryItem item) {
     if (_hasInventoryItem(item.id)) return;
 
