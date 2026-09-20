@@ -1,1 +1,1 @@
-Not Finnish Yet 
+Not Yet Finnish 
